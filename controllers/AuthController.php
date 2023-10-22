@@ -26,7 +26,7 @@
             $row = $result->fetch_assoc();
 
             $_SESSION['is_login'] = true;
-            $_SESSION['username'] = $row['username'];s
+            $_SESSION['username'] = $row['username'];
             $_SESSION['role'] = $row['role'];
             $_SESSION['fullname'] = $row['fullname'];
 
